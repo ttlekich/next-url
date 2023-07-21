@@ -3,7 +3,10 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "db:start": "npx supabase start",
+    "db:reset": "npx supabase reset",
+    "db:migration": "npx supabase migration new"
   },
   "dependencies": {
     "@supabase/auth-helpers-nextjs": "latest",
