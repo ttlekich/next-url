@@ -5,7 +5,7 @@
     "build": "next build",
     "start": "next start",
     "db:start": "npx supabase start",
-    "db:reset": "npx supabase reset",
+    "db:reset": "npx supabase db reset",
     "db:migration": "npx supabase migration new"
   },
   "dependencies": {
